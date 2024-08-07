@@ -17,12 +17,14 @@ This script extracts highlights, notes, and bookmarks from the `clippings.txt` f
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/r0bertds/kindle-highlights-dataframes/tree/main /
+git clone https://github.com/r0bertds/kindle-highlights-dataframes.git /
 cd kindle-highlights-dataframes
-  
+```
+
 2. Install the required packages:
-```bash
- pip install pandas
+``` bash
+pip install pandas
+
 ```
 
 ## Usage
