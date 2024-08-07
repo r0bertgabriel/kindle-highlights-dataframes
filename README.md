@@ -17,8 +17,8 @@ This script extracts highlights, notes, and bookmarks from the `clippings.txt` f
 
 1. Clone this repository.
 2. Install the required packages:
-    ```bash
-    pip install pandas
+```bash
+ pip install pandas
     ```
 
 ## Usage
@@ -26,9 +26,9 @@ This script extracts highlights, notes, and bookmarks from the `clippings.txt` f
 1. Ensure you have the `clippings.txt` file from your Kindle device.
 2. Place the `clippings.txt` file in the same directory as the script.
 3. Run the script:
-    ```bash
-    python kindle_clippings.py
-    ```
+```bash
+python kindle_clippings.py
+```
 
 ### Example
 
@@ -43,6 +43,8 @@ After running the script, the highlights will be parsed from `clippings.txt` and
 
 Contributions are welcome! Please open an issue or submit a pull request.
 
-## License
+For more information, please contact:
 
-This project is licensed under the MIT License.
+- Email: robertdsgabriel@gmail.com
+  
+- GitHub: [r0bert](https://github.com/r0bertds)
