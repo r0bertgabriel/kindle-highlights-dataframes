@@ -15,7 +15,11 @@ This script extracts highlights, notes, and bookmarks from the `clippings.txt` f
 
 ## Installation
 
-1. Clone this repository.
+1. Clone this repository:
+```bash
+git clone https://github.com/r0bertds/kindle-highlights-dataframes/tree/main /
+cd kindle-highlights-dataframes
+  
 2. Install the required packages:
 ```bash
  pip install pandas
