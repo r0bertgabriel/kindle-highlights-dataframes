@@ -19,7 +19,7 @@ This script extracts highlights, notes, and bookmarks from the `clippings.txt` f
 2. Install the required packages:
 ```bash
  pip install pandas
-    ```
+```
 
 ## Usage
 
