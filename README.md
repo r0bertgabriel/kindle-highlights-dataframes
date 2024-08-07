@@ -1,38 +1,48 @@
-# kindle-highlights-dataframes
-Make your highlights in Kindle ebooks easier by turning them into dataframes. This can be very helpful when transferring them to a note ;D
+# Kindle Clippings to DataFrame
 
+This script extracts highlights, notes, and bookmarks from the `clippings.txt` file of a Kindle device and transforms them into a DataFrame.
 
-## Description
+## Features
 
+- Parses highlights from `clippings.txt`
+- Updates an existing CSV file with new highlights, removing duplicates
+- Saves the updated highlights to a CSV file
 
-## Prerequisites
+## Requirements
 
-Make sure you have the following prerequisites installed on your system:
-
-
+- Python 3.x
+- pandas
 
 ## Installation
 
-1. **Clone the repository:**
+1. Clone this repository.
+2. Install the required packages:
+    ```bash
+    pip install pandas
+    ```
 
+## Usage
 
-2. **Make the script executable:**
+1. Ensure you have the `clippings.txt` file from your Kindle device.
+2. Place the `clippings.txt` file in the same directory as the script.
+3. Run the script:
+    ```bash
+    python kindle_clippings.py
+    ```
 
+### Example
 
-3. **Usage**
+After running the script, the highlights will be parsed from `clippings.txt` and saved to `highlights.csv`. Any new highlights will be added to the existing highlights, and duplicates will be removed.
 
-3.1. Run the script manually:
+## Script Details
 
+- **parse_highlights(file_path)**: Function to extract highlights from the text file and return a DataFrame.
+- **update_highlights(new_file_path, existing_df_path)**: Function to read new highlights, update the existing DataFrame, and save the combined DataFrame to a CSV file.
 
+## Contributing
 
-## Contact
+Contributions are welcome! Please open an issue or submit a pull request.
 
-For more information, please contact:
+## License
 
-- Email: robertdsgabriel@gmail.com
-  
-- GitHub: [r0bert](https://github.com/r0bertds)
-
-
-
-
+This project is licensed under the MIT License.
